@@ -21,7 +21,7 @@ class Transfer
     if @sender.balance > @amount && @status == "pending"
       @sender.balance -= self.amount
       @receiver.balance += self.amount)
-      self.status = "reversed"
+      @status = "reversed"
     else
       self.status = "rejected"
       "Transaction rejected. Please check your account balanced."
