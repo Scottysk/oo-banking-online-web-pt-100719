@@ -20,7 +20,7 @@ class Transfer
   def execute_transaction
     if @sender.balance > @amount && @status == "pending"
       @sender.balance(self.amount)
-      receiver.deposit(self.amount)
+      @receiver.deposit(self.amount)
       self.status = "reversed"
     else
       self.status = "rejected"
