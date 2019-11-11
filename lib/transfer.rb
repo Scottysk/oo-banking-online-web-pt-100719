@@ -1,6 +1,7 @@
 class Transfer
   
   initialize
+  end
   
   
   
