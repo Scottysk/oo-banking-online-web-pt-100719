@@ -21,6 +21,7 @@ class Transfer
     if valid? && sender.balance > amount && self.status == "pending"
       sender.withdrawal(self.amount)
       receiver.deposit(self.amount)
+      self.
   end
   
   
