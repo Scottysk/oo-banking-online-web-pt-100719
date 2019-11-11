@@ -1,3 +1,9 @@
 class Transfer
-  # your code here
+  
+  initialize
+  
+  
+  
+  
+  
 end
