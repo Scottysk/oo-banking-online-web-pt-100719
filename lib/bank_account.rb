@@ -18,7 +18,7 @@ class BankAccount
   end
   
   def valid?
-    if 
+    if @status == 
   end
 
 end
