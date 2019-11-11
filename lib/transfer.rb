@@ -18,6 +18,7 @@ class Transfer
   end
   
   def execute_transaction
+    if sender.
   end
   
   
