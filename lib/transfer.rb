@@ -1,6 +1,6 @@
 class Transfer
   
-  initialize(sender, reciever, )
+  initialize(sender, receiver, amount)
   end
   
   
